@@ -1,0 +1,32 @@
+{
+  "component": "Grid",
+  "props": null,
+  "children": {
+    "component": "Header",
+    "props": {
+      "fontSize": "20px"
+    },
+    "children": [
+      {
+        "component": "Text",
+        "props": {
+          "key": "2"
+        },
+        "children": {
+          "component": "Header",
+          "props": {
+            "fontSize": "20px"
+          },
+          "children": "hi John"
+        }
+      },
+      {
+        "component": "Text",
+        "props": {
+          "key": "1"
+        },
+        "children": "Hello World"
+      }
+    ]
+  }
+}

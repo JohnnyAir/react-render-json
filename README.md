@@ -1,10 +1,7 @@
-# Getting Started with Create React App
+# react-render-json
+Render component from json description.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-# react-render-json
-
-A render component from json description.
 
 ## Usage
 

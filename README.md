@@ -42,12 +42,28 @@ let description = {
 <JsonRenderer json={description} />;
 
 //renders
-<Grid>
-  <Header fontSize="20px">
-    <Text>
-      <Header fontSize="20px">Hi John</Header>
-    </Text>
-    <Text>Hello World</Text>
-  </Header>
-</Grid>
+React.createElement(
+  Grid,
+  null,
+  React.createElement(
+    Header,
+    {
+      fontSize: "20px",
+    },
+    [
+      React.createElement(
+        Text,
+        null,
+        React.createElement(
+            Header,
+            {
+              fontSize: "20px",
+            },
+            "Hi John"
+         )
+       ),
+      React.createElement(Text, null, "Hello World")
+    ]
+  )
+);
 ```
